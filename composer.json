@@ -1,5 +1,5 @@
 {
-  "name": "syverumx/syverum-skeleton",
+  "name": "syverum/syverum-skeleton",
   "description": "A starter project skeleton for applications built with the Syverum framework",
   "type": "project",
   "license": "MIT",
@@ -11,7 +11,7 @@
   "require": {
     "jenssegers/blade": "^1.4",
     "vlucas/phpdotenv": "^5.6",
-    "syverumx/framework": "^1.0"
+    "syverum/framework": "^1.0"
   },
   "scripts": {
     "post-create-project-cmd": [
