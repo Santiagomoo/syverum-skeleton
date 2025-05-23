@@ -1,0 +1,21 @@
+{
+  "name": "syverumx/syverum-skeleton",
+  "description": "A starter project skeleton for applications built with the Syverum framework",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "jenssegers/blade": "^1.4",
+    "vlucas/phpdotenv": "^5.6",
+    "syverumx/framework": "^1.0"
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    ]
+  }
+}
