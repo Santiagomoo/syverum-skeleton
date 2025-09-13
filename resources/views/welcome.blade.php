@@ -1,5 +1,5 @@
 @extends('layout.public')
-@section('titulo', 'Syverum — Bienvenido')
+@section('titulo', 'Syverum')
 @section('contenido')
   <div class="h-screen flex flex-col justify-center align-center"
     style="background: #170e0e;
