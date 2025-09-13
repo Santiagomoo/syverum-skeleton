@@ -2,19 +2,18 @@
 
 namespace App\Http\Middleware;
 
-use Core\Http\Middleware\MiddlewareInterface;
-
-class ExampleMiddleware implements MiddlewareInterface
+class ExampleMiddleware
 {
-    public function handle(callable $next)
+    public function handle($request, $next)
     {
-        // Aquí puedes agregar lógica de prueba
-        // Por ejemplo, bloquear si una condición no se cumple
-        // if (!isset($_GET['token'])) {
-        //     die("Acceso denegado");
-        // }
+        return $next($request);
+    }
 
-        // Continuar con el flujo normal
-        return $next();
+    public function __invoke($request, $next)
+    {
+        return $this->handle($request, $next);
     }
 }
+
+?>
+

@@ -1,11 +1,9 @@
 <?php
 
 use Core\Facades\Route;
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\WelcomeController;
 
-
-Route::get('/',[HomeController::class,'index'])->name('index')->middleware('ExampleMiddleware');
-Route::get('/servicios',[HomeController::class,'service'])->name('service');
-Route::get('/acercade',[HomeController::class,'about'])->name('about');
+// Página de bienvenida inicial del framework con controlador
+Route::get('/', [WelcomeController::class, 'index'])->name('home');
 
 ?>
