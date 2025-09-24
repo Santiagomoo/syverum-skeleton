@@ -13,9 +13,9 @@ background: linear-gradient(120deg,rgba(23, 14, 14, 1) 0%, rgba(48, 24, 20, 1) 1
         <p class="mt-3 text-lg text-gray-300">Un punto de partida limpio para tus aplicaciones.</p>
 
         <div class="mt-10 flex flex-wrap items-center justify-center gap-3">
-          <a href="#"
+          <a href="https://santiagomoo.github.io/syverum-docs/" target="_blank"
             class="inline-flex items-center rounded-md border border-gray-700 px-5 py-2 text-sm font-semibold text-gray-200 hover:bg-gray-900 transition-colors">Documentación</a>
-          <a href="#"
+          <a href="https://github.com/Santiagomoo/syverum-framework" target="_blank"
             class="inline-flex items-center rounded-md border border-gray-700 px-5 py-2 text-sm font-semibold text-gray-200 hover:bg-gray-900 transition-colors">GitHub</a>
         </div>
       </div>
