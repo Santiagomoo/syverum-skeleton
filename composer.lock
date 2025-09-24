@@ -1832,16 +1832,16 @@
         },
         {
             "name": "syverum/framework",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Santiagomoo/syverum-framework.git",
-                "reference": "23d22f1e8d0a753067c1f9028855041cf5475d9c"
+                "reference": "259076901ace80e3f3ed0521e10485d5b8613bc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Santiagomoo/syverum-framework/zipball/23d22f1e8d0a753067c1f9028855041cf5475d9c",
-                "reference": "23d22f1e8d0a753067c1f9028855041cf5475d9c",
+                "url": "https://api.github.com/repos/Santiagomoo/syverum-framework/zipball/259076901ace80e3f3ed0521e10485d5b8613bc4",
+                "reference": "259076901ace80e3f3ed0521e10485d5b8613bc4",
                 "shasum": ""
             },
             "require": {
@@ -1868,9 +1868,9 @@
             "description": "Core del framework Syverum",
             "support": {
                 "issues": "https://github.com/Santiagomoo/syverum-framework/issues",
-                "source": "https://github.com/Santiagomoo/syverum-framework/tree/v2.0.0"
+                "source": "https://github.com/Santiagomoo/syverum-framework/tree/v2.0.1"
             },
-            "time": "2025-09-24T02:48:54+00:00"
+            "time": "2025-09-24T04:19:21+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
